@@ -1,0 +1,85 @@
+.transaction_design :hover{
+   
+        transition: all 1s; 
+        transform: scale(.9);
+      
+}
+.color_styless{
+        width:56%;
+}
+.CircularProgressbar .CircularProgressbar-text {
+        fill: #070707!important;
+    }
+.CircularProgressbar .CircularProgressbar-path {
+        stroke: #3761EE !important;
+        stroke-width: 8px !important;    
+    }
+   .contentStyle{
+        /* height:"160px"; */
+        color: black;
+        /* line-height: 160px; */
+        text-align: center;
+        /* background-color:green; */
+      };
+      .ant-carousel .slick-dots li button {
+        display: block;
+        width: 100%;
+        height: 3px;
+        padding: 0;
+        color: gray !important;
+        font-size: 0;
+        background-color: black !important ;
+        border: 0;
+        border-radius: 1px;
+        outline: none;
+        cursor: pointer;
+        opacity: 0.3;
+        transition: all 0.5s;
+    }
+    
+      @media screen and (max-width: 320px) {
+        .ant-carousel {
+                
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                color: rgba(0, 0, 0, 0.85);
+                font-size: 14px;
+                font-variant: tabular-nums;
+                line-height: 1.5715;
+                list-style: none;
+                font-feature-settings: 'tnum', "tnum";
+                display: inline-block;
+            }
+      } 
+      @media screen and (min-width: 768px) {
+        .ant-carousel {
+                
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                color: rgba(0, 0, 0, 0.85);
+                font-size: 14px;
+                font-variant: tabular-nums;
+                line-height: 1.5715;
+                list-style: none;
+                font-feature-settings: 'tnum', "tnum";
+                display: none;
+        }
+      } 
+      @media screen and (max-width: 1024px) {
+        .styling {
+                
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                color: rgba(0, 0, 0, 0.85);
+                font-size: 14px;
+                font-variant: tabular-nums;
+                line-height: 1.5715;
+                list-style: none;
+                font-feature-settings: 'tnum', "tnum";
+                display: none;
+        }
+      } 
+     

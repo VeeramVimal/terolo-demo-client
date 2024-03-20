@@ -1,0 +1,16 @@
+.avatar-toggle {
+    position: absolute; 
+    inset: 0px auto auto 0px; 
+    margin: 0px; 
+    transform: translate(0px, 839px);
+}
+
+select {
+    background-image: url(../../assets/Images/arrow.svg);
+    background-position: right 0.3rem center;
+    background-repeat: no-repeat;
+    background-size: 1.5em 1.5em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

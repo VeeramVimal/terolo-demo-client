@@ -1,0 +1,16 @@
+.trans_design :hover{
+   
+    transition: all 1s; 
+    transform: scale(.9);
+  
+}
+.color_styless{
+    width:56%;
+}
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #070707!important;
+}
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #3761EE !important;
+    stroke-width: 8px !important;    
+}

@@ -1,1 +1,1 @@
-# terolo-demo-client
+# terolo-platform-manager
