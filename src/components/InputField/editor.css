@@ -1,0 +1,66 @@
+@import "~react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
+
+.rdw-editor-wrapper {}
+  .rdw-editor-toolbar {
+    margin-bottom: 0;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    border-color:darkgrey;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  .rdw-option-wrapper {
+    border: none;
+  }
+  .rdw-option-active {
+    box-shadow: none;
+    border-color:darkgrey;
+    /* background-color: rgba(#7367f0, alpha-0.2); */
+    background-color: rgba(primary, alpha);
+    /* background-color: rgba(color: primary, alpha: 0.2); */
+  }:hover {
+    box-shadow: none;
+  }
+  .rdw-dropdown-wrapper {
+    border: 1px solid darkgrey;
+  }:hover {
+    box-shadow: none;
+  }
+  .rdw-dropdown-optionwrapper :hover{
+      box-shadow: none;
+    }
+  
+  .rdw-link-modal,
+  .rdw-embedded-modal {
+    height: auto;
+  }
+  .rdw-editor-main {
+    min-height: 10rem;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid darkgrey;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  .rdw-editor-toolbar ~ .rdw-editor-main {
+    border-top: none;
+  }
+.toolbar-bottom {
+    display: flex;
+    flex-direction: column;
+}
+.rdw-editor-toolbar {
+  order: 2;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.rdw-editor-main {
+  border-top: 1px solid darkgrey;
+  /* border-bottom: 0.2rem; */
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  order: 1;
+}
